@@ -17,30 +17,9 @@ Installation
 Clone the repository:
 
 bashCopygit clone https://github.com/babish9887/Slider.git
+
 cd Slider
 
-Include the required files in your HTML:
-
-htmlCopy<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
-
-Add the slider markup to your HTML:
-
-htmlCopy<div class="slider-container">
-  <div class="slider">
-    <div class="card">
-      <div class="inner-top"></div>
-      <div class="content">
-        <div class="circle"></div>
-        <div class="text-container">
-          <div class="text-line-large"></div>
-          <div class="text-line-small"></div>
-        </div>
-      </div>
-    </div>
-    <!-- Add more cards as needed -->
-  </div>
-</div>
 Technical Details
 Technology Choices
 
