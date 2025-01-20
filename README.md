@@ -1,4 +1,4 @@
-#Slider
+Slider
 A lightweight, responsive card slider component with smooth scaling transitions and touch support. Built with vanilla JavaScript and CSS, this component provides an engaging user experience with cards that smoothly scale up when centered.
 Show Image
 Features
