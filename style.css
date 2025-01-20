@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #eda072, #822f9f);
+  }
+
+  .slider-container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+  }
+
+  .slider {
+    position: absolute;
+    width: 100%;
+    cursor: grab;
+    transform: translateY(0);
+    will-change: transform;
+    padding: 100px;
+  }
+
+  .slider:active {
+    cursor: grabbing;
+  }
+
+  .card {
+    width: 500px;
+    padding: 0.5rem;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+    box-shadow: inset 1px 1px 3px white, 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Smooth transition for all properties including scale */
+  }
+  
+  .card {
+    transition: transform 0.3s ease; /* Added transition for the transform property */
+  }
+  
+
+  .inner-top {
+    width: 100%;
+    height: 50%;
+    border-radius: 0.75rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 2px 2px 2px white;
+  }
+
+  .content {
+    width: 100%;
+    padding: 0.5rem 0;
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .circle {
+    width: 20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 5px white;
+  }
+
+  .text-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+  }
+
+  .text-line-large {
+    width: 100%;
+    height: 12px;
+    border-radius: 0.125rem;
+    box-shadow: inset 1px 1px 15px white;
+  }
+
+  .text-line-small {
+    width: 50%;
+    height: 5px;
+    border-radius: 0.125rem;
+    box-shadow: inset 1px 1px 10px white;
+  }
